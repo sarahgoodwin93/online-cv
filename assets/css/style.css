@@ -330,3 +330,7 @@ footer {
     content: "";
     background: #fafafa;
 }
+
+.histroy-items {
+    margin-bottom: 30px;
+}
