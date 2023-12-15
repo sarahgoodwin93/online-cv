@@ -374,11 +374,15 @@ footer .cv-pdf i:hover {
 
 
 .center-form {
-    display: flex;
-    justify-content: center;
     padding-top: 10px;
     margin: 0 auto;
     max-width: 70%;
+}
+
+.user-input-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 button[type="submit"] {

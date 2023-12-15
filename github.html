@@ -20,6 +20,11 @@
       type="text/css"
     />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="assets/css/github-styles.css"
+      type="text/css"
+    />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script
@@ -102,14 +107,16 @@
           </h5>
 
           <div class="center-form">
-            <input
-              type="text"
-              id="gh-username"
-              value="sarahgoodwin93"
-              oninput="fetchGitHubInformation()"
-            />
-            <div id="gh-user-data"></div>
-            <div id="gh-repo-data"></div>
+            <div class="user-input-box">
+              <input
+                type="text"
+                id="gh-username"
+                value="sarahgoodwin93"
+                oninput="fetchGitHubInformation()"
+              />
+            </div>
+            <div id="gh-user-data" class="user-input-box"></div>
+            <div id="gh-repo-data" class="user-input-box"></div>
           </div>
         </div>
       </div>
